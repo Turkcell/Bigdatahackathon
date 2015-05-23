@@ -7,8 +7,8 @@ Size verilen datanın ortalama konuşma süresini mapreduce kullanarak bulun.
 - Output formatınız output_sample_a1.txt ile aynı olmalıdır.
 
 Data :
-SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
 START_TIME|END_TIME|CALLED_NO|CALLING_NO|TERMINATION_CAUSE_ID|CONVERSATION_TIME
 
 Bu veri kullanıcıların arama aranma ilişkilerini tutmaktadır.
@@ -28,8 +28,8 @@ Toplam en uzun süre arayan ve toplam en uzun süre aranan kişiyi MapReduce kul
 - Output formatınız output_sample_a2.txt ile aynı olmalıdır.
 
 Data :
-SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
 START_TIME|END_TIME|CALLED_NO|CALLING_NO|TERMINATION_CAUSE_ID|CONVERSATION_TIME
 
 Veri tanımı soru 1 de açıklanmıştır.
@@ -41,14 +41,14 @@ Veri tanımı soru 1 de açıklanmıştır.
 İpucu: Her bir abonenin bulunduğu şehir ile arama kayıtlarının bulunduğu tablo joinlenecektir.
 
 Data :
-SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
 START_TIME|END_TIME|CALLED_NO|CALLING_NO|TERMINATION_CAUSE_ID|CONVERSATION_TIME
 
 Veri tanımı soru 1 de açıklanmıştır.
 
-SAMPLE : wasb://samplesubscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://subscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplesubscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://subscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
 SUBSCRIBER_ID|CITY_OF_RESIDENCE
 
 Bu veri kullanıcıların yaşadıkları şehirleri bulundurmaktadır.
@@ -65,8 +65,8 @@ Mehmet, Ahmet’i 14:02:00 saati öncesinde geri arar ve belli bir süre konuşu
 Ahmet’in davranışını en çok sergileyen 10 kişiyi bulun.
 
 Data :
-SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
 START_TIME|END_TIME|CALLED_NO|CALLING_NO|TERMINATION_CAUSE_ID|CONVERSATION_TIME
 
 Veri tanımı soru 1 de açıklanmıştır.
@@ -78,14 +78,14 @@ En az aranan ildeki en çok aranan 3 aboneyi bulun.
 İpucu: Her bir abonenin bulunduğu şehir ile arama kayıtlarının bulunduğu tablo joinlenecektir.
 
 Data :
-SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplecalldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://calldatacontainer@tbigdatahackathonstorage.blob.core.windows.net/
 START_TIME|END_TIME|CALLED_NO|CALLING_NO|TERMINATION_CAUSE_ID|CONVERSATION_TIME
 
 Veri tanımı soru 1 de açıklanmıştır.
 
-SAMPLE : wasb://samplesubscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://subscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplesubscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://subscriberlocationcontainer@tbigdatahackathonstorage.blob.core.windows.net/
 SUBSCRIBER_ID|CITY_OF_RESIDENCE
 
 Veri tanımı soru 3 de açıklanmıştır.
@@ -97,8 +97,8 @@ Size verilen data içerisinde bir kişinin kaç farklı kişiye sms attığını
 - Output formatınız output_sample_a6.txt ile aynı olmalıdır.
 
 Data :
-SAMPLE : wasb://samplesubscriberusagecontainer@tbigdatahackathonstorage.blob.core.windows.net/
-FULL : wasb://subscriberusagecontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- SAMPLE : wasb://samplesubscriberusagecontainer@tbigdatahackathonstorage.blob.core.windows.net/
+- FULL : wasb://subscriberusagecontainer@tbigdatahackathonstorage.blob.core.windows.net/
 CALLING_NO|CALLED_NO|CALL_TYPE|DURATION|CALL_COUNT
 
 Bu veri kullanıcıların arama aranma ve SMS gönderme alma ilişkilerini tutmaktadır.
