@@ -1,5 +1,4 @@
-# Turkcell Big Data Hackathon Sorular
-# 1. Bölüm
+# Turkcell Big Data Hackathon Sorular 1. Bölüm
 
 ## Soru 1
 Size verilen datanın ortalama konuşma süresini mapreduce kullanarak bulun.
