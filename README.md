@@ -113,9 +113,9 @@ CALL_COUNT : Arama sayısı  Örnek veri: 25
 ## Soru 7
 Verilen dataset üzerinde arama başlangıç saatine ve o saat içerisindeki toplam arama süresine göre aboneleri kümeleyiniz.
 
-Not1: Her subscriber id için her saatte yaptıkları toplam arama süresi hesaplanmalıdır.
-Not2: K-means algoritmasını kullanınız. Similarity için Euclidean kullanınız. Initialize işlemini K-Means ile 1000 iteration la yapınız.
-Not3: Ürettiğiniz 5 cluster ı  output dosyasına yazınız.
+- Not1: Her subscriber id için her saatte yaptıkları toplam arama süresi hesaplanmalıdır.
+- Not2: K-means algoritmasını kullanınız. Similarity için Euclidean kullanınız. Initialize işlemini K-Means ile 1000 iteration la yapınız.
+- Not3: Ürettiğiniz 5 cluster ı  output dosyasına yazınız.
 
 Dataset i aşağıdaki url den Reader ile okuyabilirsiniz. Aşağıda verilen tek dataset üzerinde çalışabilirsiniz.
 
@@ -127,15 +127,14 @@ https://tbigdatahackathonstorage.blob.core.windows.net/samplecalldatamlcontainer
 ## Soru 8
 Verilen dataset üzerinde arayan ve aranan subscriber id ikilileri için sonlanma tipi sayılarına göre anormal durumlar varsa belirleyiniz.
 
-Not1: Yapacağınız çalışmada bütün arama sonlanma tiplerini göz önünde bulundurmanız gerekmektedir.
-Not2: Her arayan ve aranan subscriber id ikilisi için sonlanma tiplerine göre toplam çağrı sayılarının hesaplanması gerekmektedir.
-Not3: Scored Probabilities e göre en yüksek olan 100 anormal durumu output dosyasına yazınız.
-Not4: Support Vector Machine algoritmasını kullanınız.
-Not5: Output dosyasında tab separated arayan ve aranan subscriber id ikilisi ve Scored Probabilities yer almalıdır.
+- Not1: Yapacağınız çalışmada bütün arama sonlanma tiplerini göz önünde bulundurmanız gerekmektedir.
+- Not2: Her arayan ve aranan subscriber id ikilisi için sonlanma tiplerine göre toplam çağrı sayılarının hesaplanması gerekmektedir.
+- Not3: Scored Probabilities e göre en yüksek olan 100 anormal durumu output dosyasına yazınız.
+- Not4: Support Vector Machine algoritmasını kullanınız.
+- Not5: Output dosyasında tab separated arayan ve aranan subscriber id ikilisi ve Scored Probabilities yer almalıdır.
 
 
 Dataset i aşağıdaki url den Reader ile okuyabilirsiniz. Aşağıda verilen tek dataset üzerinde çalışabilirsiniz.
 
 https://tbigdatahackathonstorage.blob.core.windows.net/samplecalldatamlcontainer/call_data_ml.txt
 https://tbigdatahackathonstorage.blob.core.windows.net/samplecalldatamlcontainer/termination_cause_list.txt
-
